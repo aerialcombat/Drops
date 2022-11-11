@@ -178,4 +178,12 @@ public extension Drop {
     public let message: String
   }
 }
+
+public extension Drop {
+  /// A convenient way to show Drops.
+  func show() {
+    Drops.show(self)
+  }
+}
+
 #endif
